@@ -27,7 +27,7 @@ for ( let i = 0 ; i < n; i++) {
  //SE il resto dei multipli di 5 è 0 E il rsto dei multipli di 3 è 0 stampa fizz buzz 
  if (restoBuzz === 0 && restoFizz === 0) {
 console.log( i+1 +' fizz buzz')
- } //ALTRIMENTI 
+ } //ALTRIMENTI se SOLO il resto dei multipli di 5  
  else if ( restoBuzz === 0){
     console.log(i+1 +' buzz')
  } 
